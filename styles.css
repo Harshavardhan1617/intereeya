@@ -1,0 +1,6 @@
+input[type="button"] {
+    display: block;
+    font-weight: 600;
+    background-color: rgb(169, 238, 238);
+    margin-top: 20px;
+}
