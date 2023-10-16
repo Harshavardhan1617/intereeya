@@ -4,3 +4,8 @@ input[type="button"] {
     background-color: rgb(169, 238, 238);
     margin-top: 20px;
 }
+
+.nav-links li a:hover {
+    text-decoration: none;
+    color: chartreuse;
+}
