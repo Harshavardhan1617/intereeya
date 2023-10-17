@@ -1,8 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
 
 div.brand {
     display: inline-block;
-    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Tilt Neon', sans-serif;
     font-size: 25px;
     padding: 10px 5px;
     margin: 22px;
