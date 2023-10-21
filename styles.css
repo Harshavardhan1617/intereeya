@@ -1,3 +1,43 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
 
+.welcome-h3 {
+    text-align: center;
+}
+.carousel-inner img {
+    width: 300px; 
+    height: auto; 
+    object-fit: cover; 
+}
+
+.carousel-caption {
+    top: 45%;  
+    transform: translateY(-50%); 
+    left: 0; 
+    right: auto; 
+    font-size: 24px;
+    color: #fff; 
+    padding: 10px;
+}
+
+.container {
+    margin-bottom: 20px; /* Add margin to the bottom of the container */
+}
+
+.portfolio-2 {
+    background-color: #f7eaf6;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.pf-image {
+    width: 480px;
+    height: 340px;
+    margin: 50px 0 30px;
+}
+
+.pf {
+    display: inline-block;
+    flex-direction: column;
+}
