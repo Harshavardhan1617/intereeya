@@ -1,34 +1,3 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
 
-.nav-top {
-    display: flex;
-    background-color: #2a9d8f;
-    width: 99%;
-    height: 100px;
-    padding: 5px;
-    border: 2px;
-}
-
-.logo {
-    display: inline-block;
-    padding: 2px auto;
-    margin-left: 5px;
-}
-
-.brand {
-    font-family: 'Tilt Neon', sans-serif;
-    margin: auto 10px;
-    font-size: 28px;
-}
-
-.nav-links li {
-    display: inline-block;
-    margin: 5px auto;
-}
-
-.nav-links {
-    padding: auto 10px;
-
-    
-}
