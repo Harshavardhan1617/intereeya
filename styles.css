@@ -1,6 +1,10 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
 
+.logo {
+    margin-right: 15px;
+}
+
 .welcome-h3 {
     text-align: center;
 }
@@ -21,7 +25,7 @@
 }
 
 .container {
-    margin-bottom: 20px; /* Add margin to the bottom of the container */
+    margin-bottom: 20px;
 }
 
 .portfolio-2 {
@@ -45,17 +49,31 @@
 .p-main {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 .p-sub {
-    display: flex;
-    flex-direction: column;
-    max-width: 350px;
-    height: auto;
+    flex: 1; 
+    max-width: 100%; 
 }
 .p-img img {
     max-width: 100%;
     height: auto;
-    object-fit: cover; /* or other values like 'contain' or 'fill' as needed */
-  }
-  
+    object-fit: cover; 
+}
+
+@media (min-width: 768px) {
+    .p-main {
+        flex-direction: row;
+    }
+}
+
+/* .p-main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.p-sub {
+    flex: 1;
+
+} */
