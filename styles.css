@@ -41,3 +41,21 @@
     display: inline-block;
     flex-direction: column;
 }
+
+.p-main {
+    display: flex;
+    flex-direction: column;
+}
+
+.p-sub {
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    height: auto;
+}
+.p-img img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover; /* or other values like 'contain' or 'fill' as needed */
+  }
+  
