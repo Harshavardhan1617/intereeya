@@ -48,7 +48,7 @@
     padding: 10px;
 }
 
-.about-sub img {
+.about-sub-img img {
     width: 100%
 }
 
@@ -78,5 +78,38 @@
     .sub-2 {
         padding: 10px 0px 10px 10px;
     }
+
+    .div-about {
+        display: flex;
+        justify-content: center;
+    }
+
+    .about-main {
+        display: flex;
+        flex: auto;
+        flex-direction: row;
+        max-width: 60%;
+    }
+    
+    .about-sub {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* flex-basis: 45%; */
+        max-width: 45%;
+    }
+
+    .about-sub-img {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start; 
+    }
+
+    .about-sub-img img {
+        flex: 1;
+        max-width: 400px;
+    }
+
 }
 
