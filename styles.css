@@ -105,10 +105,11 @@
 }
 
 .service-main-3 button {
-    color: #ffcfd2;
+    color: #ffd670;
     background-color: #5c677d;
     border-radius: 6px;
     padding: 15px 35px;
+    margin: 25px 10px;
 }
 
 @media (min-width: 768px) {
