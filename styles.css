@@ -5,6 +5,10 @@
     margin-right: 15px;
 }
 
+.welcome {
+    background-color: #efece2;
+}
+
 .welcome-h3 {
     text-align: center;
 }
@@ -84,7 +88,7 @@
     background-color: black;
 }
 
-.services-main-1 {
+.services-main-1, .service-main-3 {
     color: antiquewhite;
     display: flex;
     align-items: center;
@@ -96,6 +100,16 @@
     padding: 80px 10px 25px;
 }
 
+.service-main-3 p {
+    max-width: 60%;
+}
+
+.service-main-3 button {
+    color: #ffcfd2;
+    background-color: #5c677d;
+    border-radius: 6px;
+    padding: 15px 35px;
+}
 
 @media (min-width: 768px) {
     .p-main {
