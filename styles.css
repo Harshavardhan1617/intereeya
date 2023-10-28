@@ -68,6 +68,10 @@
     padding: 10px;
 }
 
+.service-main-2-sub-caption {
+    color: #fff;
+}
+
 .service-main-2-sub-img {
     flex: auto;
 }
@@ -79,6 +83,19 @@
 .services {
     background-color: black;
 }
+
+.services-main-1 {
+    color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.services-main-1 h2 {
+    padding: 80px 10px 25px;
+}
+
 
 @media (min-width: 768px) {
     .p-main {
@@ -137,7 +154,7 @@
     }
       
     .service-main-2-sub-img {
-        flex-basis: 45%;
+        flex-basis: 46%;
         max-width: 100%;
     }
 
@@ -155,6 +172,7 @@
         flex-basis: 45%;
         flex-grow: 1;
         background-color: white;
+        color: black;
         text-align: center;
     }
 
