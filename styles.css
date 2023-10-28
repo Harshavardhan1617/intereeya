@@ -78,6 +78,21 @@
     flex: auto;
 }
 
+@media (min-width: 768px) {
+    .p-main {
+        display: flex;
+        flex: auto;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .p-sub {
+        display: flex;
+        flex-basis: 45%;
+        padding: 10px;
+    }
+}
+
 /* .p-main {
     display: flex;
     flex: initial;
